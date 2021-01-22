@@ -1,0 +1,156 @@
+html, body {
+    height: 100%;
+    margin: 0 auto;
+}
+
+.click-menu {
+    color: lightgray;
+    background: #262626;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 5px;
+    position: fixed;
+    left: -500px;
+    top: 10px;
+    display: none;
+}
+
+.cm-cont {
+    /* background: #363636; */
+    margin: 5px;
+    box-sizing: border-box;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2.5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    transition: .15s;
+}
+
+.cm-line {
+    width: 90%;
+    height: 2px;
+    background: #464646;
+    margin: 0 auto;
+}
+
+.cm-c-cont {
+    margin: 5px;
+}
+
+.cm-c {
+    width: 50px;
+    height: 50px;
+    background: #363636;
+    display: inline-block;
+    margin: 2.5px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .15s;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.cm-c img {
+    width: 30px;
+    height: 30px;
+}
+
+.cm-c:hover {
+    background: #464646;
+}
+
+.blu {
+    color: #7289da;
+}
+
+.red {
+    color: indianred;
+}
+
+.cm-cont:hover {
+    background: #3f3e3e;
+}
+
+.blu:hover {
+    background: #7289da;
+    color: white;
+}
+
+.red:hover {
+    background: indianred;
+    color: white;
+}
+
+.c-blu {
+    padding: 8px;
+    border: 2px solid #7289da;
+}
+
+.c-red {
+    padding: 8px;
+    border: 2px solid indianred;
+}
+
+.c-blu:hover {
+    background: #7289da;
+}
+
+.c-red:hover {
+    background: indianred;
+}
+
+.cm-m-cont {
+    /* background: #363636; */
+    margin: 5px;
+    box-sizing: border-box;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 7px;
+    border-radius: 2.5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    transition: .15s;
+    display: flex;
+    position: relative;
+}
+
+.cmmc-text {
+    flex: 1;
+}
+
+.cmmc-arrow {
+    display: inline-block;
+}
+
+.listA {
+    /* display: inline-block; */
+    color: lightgray;
+    background: #262626;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 5px;
+    position: fixed;
+    left: -100px;
+    top: 10px;
+    display: none;
+}
+
+.screen {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    color: gray;
+}
+
+.screen div {
+    text-align: center;
+}

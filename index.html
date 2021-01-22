@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+    <title>Click Menu</title>
+</head>
+<body onclick="openClickMenu(event)">
+    <div class="click-menu" id="clickMenu">
+        <div class="cm-c-cont">
+            <div class="cm-c"><img src="https://discord.com/assets/66f6c781fe86c346fbaf3390618668fc.svg"></div>
+            <div class="cm-c"><img src="https://discord.com/assets/626aaed496ac12bbdb68a86b46871a1f.svg"></div>
+            <div class="cm-c c-blu"><img src="https://discord.com/assets/913e66b19410c0ca3e71fe837a29e093.svg"></div>
+            <div class="cm-c c-red"><img src="https://discord.com/assets/8b9d5f124020931b4de093c25506f5aa.svg"></div>
+        </div>
+        <div class="cm-cont">Setting A</div>
+        <div class="cm-cont">Setting B B</div>
+        <div class="cm-cont">Setting C</div>
+        <div class="cm-cont">Setting D DD</div>
+        <div class="cm-cont">Setting E</div>
+        <div class="cm-cont">Setting F</div>
+        <div class="cm-cont">Setting G</div>
+        <div class="cm-line"></div>
+        <div class="cm-cont blu">Setting H HHH</div>
+        <div class="cm-cont blu">Setting I</div>
+        <div class="cm-m-cont blu" onmouseenter="listIShow(this, event)" onmouseleave="listILeave()">
+            <div class="cmmc-text">List I</div>
+            <div class="cmmc-arrow"><i class="fas fa-chevron-right"></i></div>
+        </div>
+        <div class="cm-line"></div>
+        <div class="cm-cont red">Setting J</div>
+        <div class="cm-m-cont red">
+            <div class="cmmc-text">Play</div>
+            <div class="cmmc-arrow"><i class="fas fa-play-circle"></i></div>
+        </div>
+    </div>
+
+    <div class="listA" id="listA" onmouseenter="lAEnter(this, event)" onmouseleave="lALeave(this, event)">
+        <div class="cm-cont la-cont">Something A</div>
+        <div class="cm-cont la-cont blu">Something B</div>
+        <div class="cm-cont la-cont red">Something C</div>
+        <div class="cm-cont la-cont">Something D</div>
+        <div class="cm-cont la-cont">Something E</div>
+        <div class="cm-cont la-cont">Something F</div>
+        <div class="cm-cont la-cont">Something G</div>
+        <div class="cm-cont la-cont">Something H</div>
+        <div class="cm-cont la-cont">Something I</div>
+        <div class="cm-cont la-cont">Something J</div>
+    </div>
+
+    <div class="screen">
+        <div>
+            <h1>CLICK</h1>
+            <h4>Made by Ezzer29#5883 - Discord Like Click Menu</h4>
+            I know the code is kinda crappy, but I was just testing some stuff<br>
+            Maby I should make a lib that does this :thinking:
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+</body>
+</html>
