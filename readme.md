@@ -3,7 +3,7 @@
 
 ## How to wha
 ```sh
-git clone https://github.com/Ezzer29/discord-like-click-menu
+git clone https://github.com/Ezzer29/discord-like-click-menu.git
 cd discord-like-click-menu
 # open index.html in browser
 ```
